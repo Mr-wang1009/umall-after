@@ -3,9 +3,9 @@
     <div class="box line">
       <h2 class="center line h3">登录</h2>
       <div>
-        <el-input placeholder="请输入账号" v-model="form.username"></el-input>
+        <el-input placeholder="请输入账号boss" v-model="form.username"></el-input>
         <div class="line">
-          <el-input placeholder="请输入密码" v-model="form.password"></el-input>
+          <el-input placeholder="请输入密码123" v-model="form.password"></el-input>
         </div>
         <div class="center line">
           <el-button type="primary" @click="login">登录</el-button>
